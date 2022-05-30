@@ -1,0 +1,213 @@
+body{
+  background-color: #84867a;
+}
+.main {
+  margin:auto;
+  width: 80%;
+}
+section, header, h5 {
+  width: 85%;
+}
+  
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: #207fd8;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.dirLine{
+  
+  width:50%;
+  padding-left:1rem;
+}
+.greenBtn{
+
+  background: linear-gradient( #20dac1, #e6fd89);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  text-shadow: 1px 1px rgb(204, 195, 195);
+  font-weight: 700;
+  font-size: 10pt;
+}
+.greenBtn:hover{
+  
+  background: linear-gradient( #20dac1, #20c1d8);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  text-shadow: 1px 1px rgb(204, 195, 195);
+  font-weight: 700;
+  font-size: 10pt;
+}
+.container2{
+  padding: 0.5rem;
+}
+#upload{
+  background: linear-gradient( #b2d6ff, #7a7672);
+}
+
+
+input[type=file]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background:  #b2d6ff;
+  transition: 1s;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: linear-gradient( #b2d6ff, #7a7672);
+  border: 2px solid #00cec9;
+}
+
+table {
+  display:flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 50%;
+  background-color:#e2e2e2;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #382f6b;
+  color: white;
+}
+h3{
+  font-size: 24px;
+  color: gold;
+  padding-left: 20px;
+  
+}
+
+h5{
+    font-size: 24px;
+    background-color:#e2e2e2;
+    border: 2px solid #ffda5d;
+}
+p {
+  color:#4fbc66;
+  font-weight: bold;
+}
+
+span{
+    font-size: 18px;
+    
+    
+}
+.forms{
+  display:flex;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  border: 2px solid white;
+  border-radius: 10px;
+
+}
+.logIn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  
+}
+
+.login{
+  background-color:#2e528c;
+  border-radius: 15px;
+  padding:0.5rem;
+}
+.login>h4{
+  text-align: center;
+  color: gold;
+}
+.login>input{
+  background-color:#ffe6ff;
+  border-radius: 15px;
+  margin:0.3rem;
+  padding:0.5rem;
+}
+.login>button{
+  background-color:#646d04;
+  border-radius: 13px;
+  padding:0.5rem;
+}
+.login>button:hover{
+  background-color:#e3ff77;
+  
+}
+.logout{
+  float:right;
+  margin: 0.5rem 1rem 0.5rem 0rem;
+  
+  
+}
+.logout>input{
+  background: linear-gradient( #a03142, #e6fd89);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  text-shadow: 1px 1px rgb(204, 195, 195);
+  font-weight: 700;
+  font-size: 10pt;
+}
+.logout>input:hover {
+  background: linear-gradient( #a03142, #516113);
+
+}
+.back>input{
+  background-color: #ffa528;
+  padding:0.2rem;
+  border: 2px solid white;
+  border-radius:30px;
+  margin: 1rem 0 2rem 2rem;
+  width: 5rem;
+}
+.back>input:hover {
+  background-color: #a29ae9;
+}
+.create>input{
+  background-color: greenyellow;
+  border: 2px solid white;
+  color: black;
+  padding:0.3rem;
+  margin: 1rem 1rem 0 0 ;
+  width: 5rem;
+  border-radius:30px;
+
+}
+.create>#field{
+  background-color:#f3eae8;
+  border: 2px solid white;
+  padding: 0.4rem;
+  width: 15vw;
+  color:rgb(22, 4, 4);
+}
+
+.create>input:hover {
+  background-color: #4fbc66;
+}
+.delete>input{
+  background: linear-gradient( #a03142, #7c2235);
+  color: gold;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 10pt;
+}
+.delete>input:hover {
+  background: linear-gradient( #f17d7a, #ef6b9d);
+}
+
