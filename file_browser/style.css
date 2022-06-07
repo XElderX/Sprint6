@@ -21,9 +21,12 @@ header{
     justify-content: space-between;
 }
 .dirLine{
-  
-  width:50%;
-  padding-left:1rem;
+  background-color:#AAAAAA;
+  width:85%;
+  padding: 1rem 0 1rem 0;
+}
+.dirLine>span{
+  padding: 1rem;
 }
 .greenBtn{
 
@@ -65,6 +68,10 @@ input[type=file]::file-selector-button:hover {
   background: linear-gradient( #b2d6ff, #7a7672);
   border: 2px solid #00cec9;
 }
+.tableContainer{
+  height: 50%;
+  overflow:auto;
+}
 
 table {
   display:flex;
@@ -72,10 +79,22 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   
 }
+table td:first-child, table th:first-child {
+  width:max-content;
+ 
+}
+table td:nth-child(2), table th:nth-child(2) {
+  width:calc(100%);
+ 
+}
+table td:nth-child(3), table th:nth-child(3) {
+  width:max-content;
+ 
+}
 table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
-  width: 50%;
+  
   background-color:#e2e2e2;
 }
 table th {
@@ -85,13 +104,15 @@ table th {
   background-color: #382f6b;
   color: white;
 }
+.action_container{
+  display: flex;
+  justify-content:space-between;
+}
 h3{
   font-size: 24px;
   color: gold;
-  padding-left: 20px;
-  
+  padding-left: 20px; 
 }
-
 h5{
     font-size: 24px;
     background-color:#e2e2e2;
@@ -100,6 +121,11 @@ h5{
 p {
   color:#4fbc66;
   font-weight: bold;
+}
+.eventNote{
+  background-color:#6a8114;
+  border: 3px solid #ffda5d;
+  padding: 0.5rem;
 }
 
 span{
@@ -124,9 +150,12 @@ span{
 }
 
 .login{
+  display:flex;
   background-color:#2e528c;
   border-radius: 15px;
   padding:0.5rem;
+  width: 50%;
+  
 }
 .login>h4{
   text-align: center;
@@ -135,11 +164,13 @@ span{
 .login>input{
   background-color:#ffe6ff;
   border-radius: 15px;
-  margin:0.3rem;
+  width:40%;
+  margin:0.3rem 0.3rem 0.3rem 30%;
   padding:0.5rem;
 }
 .login>button{
   background-color:#646d04;
+  width: 10%;
   border-radius: 13px;
   padding:0.5rem;
 }
@@ -209,5 +240,18 @@ span{
 }
 .delete>input:hover {
   background: linear-gradient( #f17d7a, #ef6b9d);
+}
+.download>input {
+  background: linear-gradient( #b492fa, #007197);
+  color: gold;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 10pt;
+
+}
+.download>input:hover {
+  background: linear-gradient( #dcefad, #ef6b9d);
 }
 
