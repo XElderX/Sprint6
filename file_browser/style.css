@@ -69,8 +69,12 @@ input[type=file]::file-selector-button:hover {
   border: 2px solid #00cec9;
 }
 .tableContainer{
-  height: 50%;
-  overflow:auto;
+  height:30vh;
+  background-color:#e2e2e282;
+	overflow-y:scroll;
+}
+.tableContainer .table{
+  padding:10px;
 }
 
 table {
@@ -80,21 +84,22 @@ table {
   
 }
 table td:first-child, table th:first-child {
-  width:max-content;
+  width:10%;
  
 }
 table td:nth-child(2), table th:nth-child(2) {
-  width:calc(100%);
+  width:100%;
  
 }
 table td:nth-child(3), table th:nth-child(3) {
-  width:max-content;
- 
+  width:20%;
+}
+table th:nth-child(3){
+  padding: 0 3rem 0 4rem;
 }
 table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
-  
   background-color:#e2e2e2;
 }
 table th {
@@ -123,15 +128,15 @@ p {
   font-weight: bold;
 }
 .eventNote{
-  background-color:#6a8114;
-  border: 3px solid #ffda5d;
+  background-color:#e2e2e282;
+  color:black;
+  border: 2px solid #5dff784a;
+  border-radius:10px;
   padding: 0.5rem;
 }
 
 span{
     font-size: 18px;
-    
-    
 }
 .forms{
   display:flex;
@@ -139,19 +144,17 @@ span{
   background-color: #e2e2e2;
   border: 2px solid white;
   border-radius: 10px;
-
 }
 .logIn{
   display:flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
-  
+  height: 80vh;
 }
 
 .login{
   display:flex;
-  background-color:#2e528c;
+  background-color:#e2e2e246;
   border-radius: 15px;
   padding:0.5rem;
   width: 50%;
@@ -171,7 +174,9 @@ span{
 .login>button{
   background-color:#646d04;
   width: 10%;
+  border:1px solid #999;
   border-radius: 13px;
+  margin-bottom: 6rem;
   padding:0.5rem;
 }
 .login>button:hover{
@@ -181,7 +186,6 @@ span{
 .logout{
   float:right;
   margin: 0.5rem 1rem 0.5rem 0rem;
-  
   
 }
 .logout>input{
@@ -213,7 +217,7 @@ span{
   border: 2px solid white;
   color: black;
   padding:0.3rem;
-  margin: 1rem 1rem 0 0 ;
+  margin: 1rem 0.5rem 0 0 ;
   width: 5rem;
   border-radius:30px;
 
@@ -239,10 +243,10 @@ span{
   font-size: 10pt;
 }
 .delete>input:hover {
-  background: linear-gradient( #f17d7a, #ef6b9d);
+  background: linear-gradient(#f17d7a, #ef6b9d);
 }
 .download>input {
-  background: linear-gradient( #b492fa, #007197);
+  background: linear-gradient(#b492fa, #007197);
   color: gold;
   border: 1px solid #999;
   border-radius: 3px;
