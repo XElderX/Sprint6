@@ -26,7 +26,7 @@ e.g On Visual Studio Code using git bash command line : git clone https://github
 
 
 ### Installation
-1. Go to <a href="https://www.apachefriends.org/"></a>
+1. Go to "https://www.apachefriends.org/"
 2. Download it, and start the server
 3. On XAMPP's instalation location find dir with a name: htdocs
 4. Put there content that you have cloned before.
