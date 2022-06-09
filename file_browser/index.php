@@ -98,7 +98,7 @@ function addDeleteBack()
 }
 function reload()
 {
-    header('refresh:2') and header('location: ' . $_SERVER['REQUEST_URI']) and die;
+    header('refresh:0.5') and header('location: ' . $_SERVER['REQUEST_URI']) and die;
 }
 function modifiedPath()
 {
