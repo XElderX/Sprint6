@@ -17,12 +17,11 @@ This app was developed with raw php, css.
 
 ## Getting Started
 
-There are instructions on setting up this project.
-To get a local copy up and running follow these simple steps:
-*You have to clone the repository https://github.com/XElderX/Sprint6.git 
-e.g On Visual Studio Code using git bash command line : git clone https://github.com/XElderX/Sprint6.git
-*Congratulation now you have this project locally
-*However, since its a server side app you have to make some additional steps to make it working. <b>You have to install any PHP development Web server. e.g XAMPP
+<li>There are instructions on setting up this project.</li>
+<li>To get a local copy up and running follow these simple steps:</li>
+<li>You have to clone the repository https://github.com/XElderX/Sprint6.git e.g On Visual Studio Code using git bash command line : git clone https://github.com/XElderX/Sprint6.git </li>
+<li>Congratulation now you have this project locally </li>
+<li>However, since its a server side app you have to make some additional steps to make it working. <b>You have to install any PHP development Web server. e.g XAMPP</li>
 
 
 ### Installation
